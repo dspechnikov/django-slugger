@@ -1,0 +1,17 @@
+# PyCharm
+/.idea
+
+# virtualenv
+/.python-version
+
+# testing
+/.cache
+/.coverage
+/.coverage.*
+/.tox
+
+# packaging
+/.eggs
+*.egg-info
+/dist
+/build

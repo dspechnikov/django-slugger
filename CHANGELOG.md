@@ -1,0 +1,11 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [1.0.1] - 2017-10-03
+### Added
+* Single database query for slug generation.
+* Support for all standard "unique_for" field attributes like *unique_for_date*.
+* Support for model meta *unique_together* attribute.
+* Support for custom "slugify" functions.

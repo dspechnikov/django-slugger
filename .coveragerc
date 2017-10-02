@@ -1,0 +1,13 @@
+[run]
+branch = True
+source =
+    src/slugger
+
+[paths]
+source =
+    src/slugger
+    .tox/*/lib/python*/site-packages/slugger
+
+[report]
+precision = 2
+fail_under = 95

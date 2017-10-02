@@ -1,0 +1,8 @@
+include AUTHORS
+include LICENSE
+include *.rst
+include *.ini
+graft src
+graft tests
+global-exclude __pycache__
+global-exclude *.py[co]
