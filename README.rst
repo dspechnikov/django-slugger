@@ -1,13 +1,13 @@
 django-slugger
 ==============
 
-.. image:: https://gitlab.com/dspechnikov/django-slugger-draft/badges/master/pipeline.svg
+.. image:: https://gitlab.com/dspechnikov/django-slugger/badges/master/pipeline.svg
     :alt: build status
-    :target: https://gitlab.com/dspechnikov/django-slugger-draft/commits/master
+    :target: https://gitlab.com/dspechnikov/django-slugger/commits/master
 
-.. image:: https://gitlab.com/dspechnikov/django-slugger-draft/badges/master/coverage.svg
+.. image:: https://gitlab.com/dspechnikov/django-slugger/badges/master/coverage.svg
     :alt: code coverage
-    :target: https://gitlab.com/dspechnikov/django-slugger-draft/commits/master
+    :target: https://gitlab.com/dspechnikov/django-slugger/commits/master
 
 Automatic slug field for your Django models.
 
