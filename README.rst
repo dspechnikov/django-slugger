@@ -13,6 +13,10 @@ django-slugger
     :alt: pypi version
     :target: https://pypi.python.org/pypi/django-slugger
 
+.. image:: https://img.shields.io/pypi/l/django-slugger.svg
+    :alt: license
+    :target: https://opensource.org/licenses/MIT
+
 Automatic slug field for your Django models.
 
 Features
