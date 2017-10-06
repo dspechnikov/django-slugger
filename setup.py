@@ -1,10 +1,8 @@
 from setuptools import setup, find_packages
 
-__version__ = '1.0.1'
-
 setup(
     name='django-slugger',
-    version=__version__,
+    version='1.0.1',
     url='https://gitlab.com/dspechnikov/django-slugger/',
     description='Automatic slug field for Django.',
     license='MIT',
