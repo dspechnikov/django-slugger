@@ -2,7 +2,7 @@ image: python:3.6-alpine
 
 stages:
   - test
-  - coverage
+  - pre-release
   - release
 
 before_script:
@@ -43,7 +43,7 @@ py36-django1.11:
   script: tox -e py36-djangomaster
 
 coverage:
-  stage: coverage
+  stage: pre-release
   coverage: '/TOTAL.*\s+(\d+\.?\d+?)\%/'
   script: tox -e coverage-report
 
