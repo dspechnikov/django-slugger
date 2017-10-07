@@ -3,7 +3,7 @@ from datetime import date
 import pytest
 from django.core import checks
 
-from src.slugger.fields import AutoSlugField
+from slugger.fields import AutoSlugField
 from tests.slugger.test_app import models
 
 

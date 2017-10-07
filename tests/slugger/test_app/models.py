@@ -1,6 +1,6 @@
 from django.db import models
 
-from src.slugger.fields import AutoSlugField
+from slugger.fields import AutoSlugField
 
 
 class AutoSlugModel(models.Model):
