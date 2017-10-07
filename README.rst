@@ -9,7 +9,7 @@ django-slugger
     :alt: code coverage
     :target: https://gitlab.com/dspechnikov/django-slugger/commits/master
 
-.. image:: https://img.shields.io/badge/pypi-v1.0.1-blue.svg
+.. image:: https://img.shields.io/pypi/v/django-slugger.svg
     :alt: pypi version
     :target: https://pypi.python.org/pypi/django-slugger
 
