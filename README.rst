@@ -78,13 +78,5 @@ specify it in ``slugify`` argument.
 
     ``slugify`` argument must be top-level named function.
 
-Contributing
-------------
-
-Feel free to submit an issue_ or `merge request`_ for any feature ideas or
-bug fixes.
-
 .. _slugify: https://docs.djangoproject.com/en/1.11/ref/utils/#django.utils.text.slugify
 .. _unidecode: https://pypi.python.org/pypi/Unidecode
-.. _issue: https://gitlab.com/dspechnikov/django-slugger/issues
-.. _merge request: https://gitlab.com/dspechnikov/django-slugger/merge_requests
