@@ -19,9 +19,11 @@ django-slugger
 
 .. image:: https://img.shields.io/pypi/pyversions/django-slugger.svg
     :alt: python versions
+    :target: https://www.python.org/
 
 .. image:: https://img.shields.io/badge/django-1.11-blue.svg
     :alt: django versions
+    :target: https://www.djangoproject.com/
 
 Automatic slug field for your Django models.
 
