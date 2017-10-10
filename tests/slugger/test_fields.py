@@ -57,6 +57,15 @@ class TestAutoSlugField:
             'suffix increment should be the smallest available value'
         )
 
+    def test_regenerate_slug(self):
+        obj = models.UniqueAutoSlugModel.objects.create(slug='', title='Test')
+        obj.slug = ''
+        obj.save()
+
+        assert obj.slug == 'test', (
+            'object slug should not be used for suffix generation'
+        )
+
     def test_only_suffixed_slug_exists(self):
         models.UniqueAutoSlugModel.objects.create(slug='test-1')
         obj = models.UniqueAutoSlugModel.objects.create(slug='', title='Test')

@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ## [Unreleased][]
 ### Added
 * Package-level import shortcut for AutoSlugField.
+### Fixed
+* [#1](https://gitlab.com/dspechnikov/django-slugger/issues/1) -
+Slug is incorrectly generated for already saved object
 
 ## 1.0.1 - 2017-10-03
 ### Added

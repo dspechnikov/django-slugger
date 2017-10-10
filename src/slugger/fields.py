@@ -132,6 +132,7 @@ class AutoSlugField(models.SlugField):
 
     def get_unique_slug(self, slug, instance):
         conflicts = type(instance)._default_manager.filter(
+            ~Q(pk=instance.pk),
             self._get_unique_lookups(instance)
         )
 
