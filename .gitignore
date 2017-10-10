@@ -2,19 +2,19 @@
 *__pycache__/
 
 # PyCharm
-/.idea
+/.idea/
 
 # virtualenv
 /.python-version
 
 # testing
-/.cache
+/.cache/
 /.coverage
 /.coverage.*
-/.tox
+/.tox/
 
 # packaging
 /.eggs
-*.egg-info
-/dist
-/build
+*.egg-info/
+/dist/
+/build/
