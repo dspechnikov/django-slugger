@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-slugger',
-    version='1.0.1',
+    version='1.0.2',
     url='https://gitlab.com/dspechnikov/django-slugger/',
     description='Automatic slug field for Django.',
     license='MIT',
