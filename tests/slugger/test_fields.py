@@ -193,3 +193,10 @@ class TestAutoSlugField:
 
         assert kwargs['populate_from'] == 'title'
         assert kwargs['slugify'] == models.custom_slugify
+
+    def test_model_inheritance(self):
+        models.Child1Model.objects.create(title='test', slug='')
+
+        obj = models.Child2Model.objects.create(title='test', slug='')
+
+        assert obj.slug == 'test-1'

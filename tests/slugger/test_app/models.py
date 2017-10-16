@@ -70,3 +70,11 @@ class SelfReferenceAutoSlugModel(models.Model):
 
 class LambdaAutoSlugModel(models.Model):
     slug = AutoSlugField(populate_from='title', slugify=lambda: 'test')
+
+
+class Child1Model(UniqueAutoSlugModel):
+    pass
+
+
+class Child2Model(UniqueAutoSlugModel):
+    pass
