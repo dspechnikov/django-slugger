@@ -6,8 +6,9 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 <h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.2...master">Unreleased</a></h2>
 
 ### Fixed
-* [#2](https://gitlab.com/dspechnikov/django-slugger/issues/2) -
-Parent model instances aren't used for unique slug generation.
+* Parent model instances aren't used for unique slug generation
+(see [#2](https://gitlab.com/dspechnikov/django-slugger/issues/2)).
+
 
 <h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.1...v1.0.2">1.0.2</a> - 2017-10-11</h2>
 
@@ -15,8 +16,9 @@ Parent model instances aren't used for unique slug generation.
 * Package-level import shortcut for AutoSlugField.
 
 ### Fixed
-* [#1](https://gitlab.com/dspechnikov/django-slugger/issues/1) -
-Slug is incorrectly generated for already saved object.
+* Slug is incorrectly generated for already saved object
+(see [#1](https://gitlab.com/dspechnikov/django-slugger/issues/1)).
+
 
 <h2>1.0.1 - 2017-10-03</h2>
 
