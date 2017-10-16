@@ -60,7 +60,7 @@ Usage
 
 .. code-block:: python
 
-    from slugger.fields import AutoSlugField
+    from slugger import AutoSlugField
 
     class AutoSlugModel(models.Model):
         title = models.CharField(max_length=255)
