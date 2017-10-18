@@ -140,6 +140,17 @@ class TestAutoSlugField:
         assert field_2_3.slug == 'test-1'
         assert both.slug == 'test-2'
 
+    def test_unique_together_multi_table_inheritance(self):
+        models.ChildUniqueTogetherAutoSlugModel.objects.create(
+            slug='test', field_1='1-1', field_2='2-1', field_3='3-1',
+        )
+
+        obj = models.ChildUniqueTogetherAutoSlugModel.objects.create(
+            title='test', slug='', field_1='1-2', field_2='2-1', field_3='3-1',
+        )
+
+        assert obj.slug == 'test-1'
+
     def test_both_unique_for_and_unique_together(self):
         # unique_together = ('slug', 'field_1')
         models.MixedUniqueAutoSlugModel.objects.create(

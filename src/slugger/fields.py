@@ -75,7 +75,7 @@ class AutoSlugField(models.SlugField):
 
             if any((self.unique, self.unique_for_date,
                     self.unique_for_month, self.unique_for_year,
-                    model_instance._meta.unique_together)):
+                    self.model._meta.unique_together)):
                 value = self.get_unique_slug(value, model_instance)
 
             setattr(model_instance, self.attname, value)
@@ -115,7 +115,7 @@ class AutoSlugField(models.SlugField):
             })
 
         def _get_unique_together_groups():
-            for field_group in instance._meta.unique_together:
+            for field_group in self.model._meta.unique_together:
                 if self.attname in field_group:
                     yield (field_name for field_name in field_group
                            if field_name != self.attname)

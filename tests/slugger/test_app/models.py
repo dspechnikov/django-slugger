@@ -45,6 +45,10 @@ class UniqueTogetherAutoSlugModel(models.Model):
         )
 
 
+class ChildUniqueTogetherAutoSlugModel(UniqueTogetherAutoSlugModel):
+    pass
+
+
 class MixedUniqueAutoSlugModel(models.Model):
     title = models.CharField(max_length=255)
     slug = AutoSlugField(populate_from='title', unique_for_date='unique_date')
