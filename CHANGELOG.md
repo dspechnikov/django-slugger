@@ -3,7 +3,9 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.3...master">Unreleased</a></h2>
+<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.4...master">Unreleased</a></h2>
+
+<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.3...v1.0.4">1.0.4</a> - 2017-10-18</h2>
 
 ### Fixed
 * Parent model unique_together constraint violated for multi-table inheritance
