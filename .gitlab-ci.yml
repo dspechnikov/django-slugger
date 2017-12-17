@@ -31,6 +31,11 @@ py35-django1.11:
   image: python:3.5-alpine
   script: tox -e py35-djangomaster
 
+py35-django2.0:
+  <<: *test
+  image: python:3.5-alpine
+  script: tox -e py35-django2.0
+
 py36-djangomaster:
   <<: *test
   image: python:3.6-alpine
@@ -41,6 +46,11 @@ py36-django1.11:
   <<: *test
   image: python:3.6-alpine
   script: tox -e py36-djangomaster
+
+py36-django2.0:
+  <<: *test
+  image: python:3.6-alpine
+  script: tox -e py36-django2.0
 
 coverage:
   stage: pre-release

@@ -21,7 +21,7 @@ django-slugger
     :alt: python versions
     :target: https://www.python.org/
 
-.. image:: https://img.shields.io/badge/django-1.11-blue.svg
+.. image:: https://img.shields.io/badge/django-1.11,2.0-blue.svg
     :alt: django versions
     :target: https://www.djangoproject.com/
 
@@ -86,5 +86,5 @@ specify it in ``slugify`` argument.
 
     ``slugify`` argument must be top-level named function.
 
-.. _slugify: https://docs.djangoproject.com/en/1.11/ref/utils/#django.utils.text.slugify
+.. _slugify: https://docs.djangoproject.com/en/2.0/ref/utils/#django.utils.text.slugify
 .. _unidecode: https://pypi.python.org/pypi/Unidecode
