@@ -29,7 +29,7 @@ py35-djangomaster:
 py35-django1.11:
   <<: *test
   image: python:3.5-alpine
-  script: tox -e py35-djangomaster
+  script: tox -e py35-django1.11
 
 py35-django2.0:
   <<: *test
@@ -45,7 +45,7 @@ py36-djangomaster:
 py36-django1.11:
   <<: *test
   image: python:3.6-alpine
-  script: tox -e py36-djangomaster
+  script: tox -e py36-django1.11
 
 py36-django2.0:
   <<: *test
