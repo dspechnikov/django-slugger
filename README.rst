@@ -21,7 +21,7 @@ django-slugger
     :alt: python versions
     :target: https://www.python.org/
 
-.. image:: https://img.shields.io/badge/django-1.11,2.0-blue.svg
+.. image:: https://img.shields.io/badge/django-1.11,%202.0-blue.svg
     :alt: django versions
     :target: https://www.djangoproject.com/
 
