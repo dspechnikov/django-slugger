@@ -3,7 +3,9 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.4...master">Unreleased</a></h2>
+<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.1.0...master">Unreleased</a></h2>
+
+<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.4...v1.1.0">1.1.0</a> - 2018-07-12</h2>
 
 ### Added
 * Python 3.7 support -- #4
