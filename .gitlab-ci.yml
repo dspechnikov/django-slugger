@@ -20,22 +20,6 @@ flake8:
       - .coverage*
     expire_in: 1 hour
 
-py35-djangomaster:
-  <<: *test
-  image: python:3.5-alpine
-  script: tox -e py35-djangomaster
-  allow_failure: true
-
-py35-django1.11:
-  <<: *test
-  image: python:3.5-alpine
-  script: tox -e py35-django1.11
-
-py35-django2.0:
-  <<: *test
-  image: python:3.5-alpine
-  script: tox -e py35-django2.0
-
 py36-djangomaster:
   <<: *test
   image: python:3.6-alpine
