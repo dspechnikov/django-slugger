@@ -52,6 +52,22 @@ py36-django2.0:
   image: python:3.6-alpine
   script: tox -e py36-django2.0
 
+py37-django1.11:
+  <<: *test
+  image: python:3.7-alpine
+  script: tox -e py37-django1.11
+
+py37-django2.0:
+  <<: *test
+  image: python:3.7-alpine
+  script: tox -e py37-django2.0
+
+py37-djangomaster:
+  <<: *test
+  image: python:3.7-alpine
+  script: tox -e py37-djangomaster
+  allow_failure: true
+
 coverage:
   stage: pre-release
   coverage: '/TOTAL.*\s+(\d+\.?\d+?)\%/'
