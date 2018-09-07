@@ -7,6 +7,9 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 <h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.1.0...v1.1.1">1.1.1</a> - 2018-09-07</h2>
 
+### Fixed
+* Incorrect slug suffix generation if there are instances ending with the same slug -- #6 (thanks @folt)
+
 <h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.0.4...v1.1.0">1.1.0</a> - 2018-07-12</h2>
 
 ### Added
