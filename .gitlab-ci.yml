@@ -60,7 +60,6 @@ coverage:
 release:
   stage: release
   variables:
-    TWINE_REPOSITORY_URL: 'https://upload.pypi.org/legacy/'
     TWINE_USERNAME: $PYPI_USERNAME
     TWINE_PASSWORD: $PYPI_PASSWORD
   script:
