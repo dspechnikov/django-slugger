@@ -29,6 +29,19 @@ class TestAutoSlugField:
 
         assert obj.slug == 'x' * 10
 
+    def test_fully_match_slug_field(self):
+        models.UniqueAutoSlugModel.objects.bulk_create([
+            models.UniqueAutoSlugModel(slug='some-test'),
+            models.UniqueAutoSlugModel(slug='test'),
+            models.UniqueAutoSlugModel(slug='test-1'),
+        ])
+        obj = models.UniqueAutoSlugModel.objects.create(slug='', title='Test')
+
+        assert obj.slug == 'test-2', (
+            'taken slugs should be from instances which slug fully '
+            'matches the slug field'
+        )
+
     def test_add_suffix(self):
         models.UniqueAutoSlugModel.objects.create(slug='test')
         obj = models.UniqueAutoSlugModel.objects.create(slug='', title='Test')

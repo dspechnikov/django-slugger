@@ -137,7 +137,7 @@ class AutoSlugField(models.SlugField):
         )
 
         taken_slugs = sorted(conflicts.filter(
-            **{'%s__regex' % self.attname: r'%s(-\d+)?$' % slug}
+            **{'%s__regex' % self.attname: r'^%s(-\d+)?$' % slug}
         ).values_list(self.attname, flat=True))
 
         if slug not in taken_slugs:
