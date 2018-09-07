@@ -3,7 +3,9 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.1.1...master">Unreleased</a></h2>
+<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.1.2...master">Unreleased</a></h2>
+
+<h2><a href="https://gitlab.com/dspechnikov/django-slugger/compare/v1.1.1...v1.1.2">1.1.2</a> - 2018-09-07</h2>
 
 ### Fixed
 
