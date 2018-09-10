@@ -17,7 +17,7 @@ setup(
         'unidecode',
     ],
 
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
     keywords='django field slug auto',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
