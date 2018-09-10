@@ -5,7 +5,7 @@
 [![pypi version](https://img.shields.io/pypi/v/django-slugger.svg)](https://pypi.python.org/pypi/django-slugger)
 [![license](https://img.shields.io/pypi/l/django-slugger.svg)](./LICENSE)
 [![python versions](https://img.shields.io/pypi/pyversions/django-slugger.svg)](https://www.python.org/)
-[![django versions](https://img.shields.io/badge/django-1.11,%202.0-blue.svg)](https://www.djangoproject.com/)
+[![django versions](https://img.shields.io/badge/django-1.11,%202.0,%202.1-blue.svg)](https://www.djangoproject.com/)
 
 Automatic slug field for Django models.
 
